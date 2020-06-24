@@ -30,3 +30,9 @@ class Subject():
         self.age = self.calcAge(bday)
         self.data = rawData.query("subnum == @sid")
         self.index = self.data.index
+        
+    def displayInfo(self):
+        print("SUBJECT ", self.SID)
+        print("pGUID: ", self.pGUID)
+        print("interview_date: ", str(self.intvw_date))
+        print("age in months: ", str(self.age))
