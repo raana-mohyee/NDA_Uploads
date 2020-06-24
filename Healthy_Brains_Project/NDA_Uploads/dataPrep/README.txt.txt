@@ -1,0 +1,1 @@
+This folder contains the PyCharm project and relevant scripts used to prepare Healthy Brains Project data for upload to the NIMH Data Archive.
